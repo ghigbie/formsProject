@@ -7,16 +7,16 @@
 	<h1>Register</h1>
 
 	<form>
-		<div id="name">
+		<div id="nameLine">
 			<label for="firstName">First Name:</label>
-			<input id="firstName" type="text" name="firstName" >	
+			<input id="firstName" type="text" name="firstName" placeholder="John" required>	
 
 			<label for="lastName" >Last Name:</label>
-			<input id="lastName" type="text" name="lastName">	
+			<input id="lastName" type="text" name="lastName" placeholder="Smith" required>	
 		</div>	
 
 		<br>
-		<div>
+		<div id="genderLine">
 			<label for="male">Male</label>
 			<input id="male" type="radio" name="gender" value="Male">	
 
@@ -27,8 +27,16 @@
 			<input id="other" type="radio" name="gender" value="Other">
 		</div>	
 
-		<label></label>
-		<input type="" name="">
+		<br>
+		<div id=emialPasswordLine>
+			<label for="email">Email:</label>
+			<input id="email" type="text" name="email" placeholder="your email" required>
+
+			<label for="passwoord"></label>
+			<input id="password" type="password" name="password" placeholder="your password" required>
+		</div>
+
+
 		
 	</form>
 
